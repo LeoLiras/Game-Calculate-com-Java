@@ -109,7 +109,7 @@ public class Calcular {
 			System.out.println("Resposta Incorreta!");
 		}
 		
-		System.out.println(this.getValor1() + " + " + this.getValor2() + " = " + this.getResultado());	
+		System.out.println(this.getValor1() + " + " + this.getValor2() + " = " + this.getResultado() + "\n");	
 		return resposta_correta;
 	}
 	
@@ -130,7 +130,7 @@ public class Calcular {
 			System.out.println("Resposta Incorreta!");
 		}
 		
-		System.out.println(this.getValor1() + " - " + this.getValor2() + " = " + this.getResultado());	
+		System.out.println(this.getValor1() + " - " + this.getValor2() + " = " + this.getResultado() + "\n");	
 		return resposta_correta;
 	}
 	
@@ -151,7 +151,7 @@ public class Calcular {
 			System.out.println("Resposta Incorreta!");
 		}
 		
-		System.out.println(this.getValor1() + " * " + this.getValor2() + " = " + this.getResultado());	
+		System.out.println(this.getValor1() + " * " + this.getValor2() + " = " + this.getResultado() + "\n");	
 		return resposta_correta;
 	}
 }
